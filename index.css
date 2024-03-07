@@ -18,7 +18,6 @@
 .contact_dr {
   width: 100%;
   max-width: 1440px;
-  position: relative;
   margin: 0 auto;
 }
 .contact_dr_wrapper {
@@ -29,6 +28,7 @@
   justify-content: center;
   padding: 105px 172px 150px 312px;
   margin: 0 auto;
+  position: relative;
 }
 .contact_dr_phone {
 }
@@ -128,4 +128,246 @@
 .contact_dr_button:hover {
   background: #000000;
   transition: all 0.3s;
+}
+
+/* The animation code */
+@keyframes elipse_1_ani {
+  0% {
+    width: 273px;
+    height: 188px;
+    border-radius: 273px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  14% {
+    width: 281px;
+    height: 168px;
+    border-radius: 281px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  28% {
+    width: 365px;
+    height: 148px;
+    border-radius: 365px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  42% {
+    width: 332px;
+    height: 248px;
+
+    border-radius: 332px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  56% {
+    width: 302px;
+    height: 187px;
+    border-radius: 302px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  70% {
+    width: 290px;
+    height: 186px;
+    border-radius: 290px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  85% {
+    width: 299px;
+    height: 187px;
+    border-radius: 299px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  100% {
+    width: 273px;
+    height: 188px;
+    border-radius: 273px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+}
+
+.contact_elipce_1 {
+  width: 273px;
+  height: 188px;
+  flex-shrink: 0;
+  border-radius: 273px;
+  background: #f9a351;
+  filter: blur(79.5px);
+  animation-name: elipse_1_ani;
+  animation-duration: 9.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  z-index: -1;
+}
+
+@keyframes elipse_2_ani {
+  0% {
+    width: 247px;
+    height: 173px;
+    flex-shrink: 0;
+    fill: #ffbf37;
+    filter: blur(79.5px);
+  }
+  14% {
+    width: 360px;
+    height: 228px;
+    flex-shrink: 0;
+    border-radius: 360px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  28% {
+    width: 360px;
+    height: 196px;
+    flex-shrink: 0;
+    border-radius: 360px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  42% {
+    width: 373.98px;
+    height: 133.147px;
+    transform: rotate(21.486deg);
+    border-radius: 373.98px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  56% {
+    width: 277.838px;
+    height: 349.504px;
+    transform: rotate(68.862deg);
+    border-radius: 349.504px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  70% {
+    width: 241.882px;
+    height: 269.693px;
+    transform: rotate(68.862deg);
+    border-radius: 269.693px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  85% {
+    width: 296.445px;
+    height: 269.693px;
+    transform: rotate(68.862deg);
+    flex-shrink: 0;
+    border-radius: 296.445px;
+    background: #ffbf37;
+    filter: blur(79.5px);
+  }
+  100% {
+    width: 247px;
+    height: 173px;
+    flex-shrink: 0;
+    fill: #ffbf37;
+    filter: blur(79.5px);
+  }
+}
+.contact_elipce_2 {
+  width: 247px;
+  height: 173px;
+  flex-shrink: 0;
+  fill: #ffbf37;
+  filter: blur(79.5px);
+  animation-name: elipse_2_ani;
+  animation-duration: 9.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 25%;
+  left: 150px;
+  z-index: -1;
+}
+@keyframes elipse_3_ani {
+  0% {
+    width: 274px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 287px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  14% {
+    width: 278px;
+    height: 213px;
+    flex-shrink: 0;
+    border-radius: 278px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  28% {
+    width: 345px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 345px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  42% {
+    width: 386px;
+    height: 246px;
+    flex-shrink: 0;
+    border-radius: 386px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  56% {
+    width: 345px;
+    height: 214px;
+    flex-shrink: 0;
+    border-radius: 345px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  70% {
+    width: 363.934px;
+    height: 189.838px;
+    transform: rotate(-23.177deg);
+    flex-shrink: 0;
+    border-radius: 363.934px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  85% {
+    width: 345px;
+    height: 214px;
+    flex-shrink: 0;
+    border-radius: 345px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+  100% {
+    width: 274px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 287px;
+    background: #f9a351;
+    filter: blur(79.5px);
+  }
+}
+.contact_elipce_3 {
+  width: 274px;
+  height: 287px;
+  flex-shrink: 0;
+  border-radius: 287px;
+  background: #f9a351;
+  filter: blur(79.5px);
+  animation-name: elipse_3_ani;
+  animation-duration: 9.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 25%;
+  left: 300px;
+  z-index: -1;
 }
