@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Gotham-normal';
+  src: url('../assets/Gotham-Book.eot'); /* IE9 Compat Modes */
+  src: url('../assets/Gotham-Book.eot') format('embedded-opentype'),
+    url('../assets/Gotham-Book.woff2') format('woff2'),
+    url('../assets/Gotham-Book.woff') format('woff'),
+    url('../assets/Gotham-Book.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url('../assets/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../assets/Gotham-Bold.eot') format('embedded-opentype'),
+    url('../assets/Gotham-Bold.woff2') format('woff2'),
+    url('../assets/Gotham-Bold.woff') format('woff'),
+    url('../assets/Gotham-Bold.ttf') format('truetype');
+}
+
+.contact_dr {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+}
+.contact_dr_wrapper {
+  display: flex;
+  gap: 170px;
+  max-width: 956px;
+  align-items: center;
+  justify-content: center;
+  padding: 105px 172px 150px 312px;
+  margin: 0 auto;
+}
+.contact_dr_phone {
+}
+.contact_dr_phone_img {
+  max-width: 250px !important;
+  max-height: 507px !important;
+}
+.contact_dr_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact_dr_title {
+  color: #000;
+  font-family: 'Gotham-bold';
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  max-width: 479px;
+  margin-bottom: 30px;
+}
+.contact_dr_text_block_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.contact_dr_number_text_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.contact_dr_number_bg {
+  height: 30px;
+  width: 43px;
+
+  border-radius: 10px;
+  background: var(--New-Brand-Color, #f9a351);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_dr_number_item {
+  color: var(--white, #fff);
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+.contact_dr_text_wraooer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_dr_text_title {
+  color: #000;
+  font-family: 'Gotham-bold';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact_dr_text_text {
+  color: #000;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact_dr_button {
+  display: flex;
+  width: 100%;
+  max-width: 505px;
+  padding: 18px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #f9a351;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.contact_dr_button:hover {
+  background: #000000;
+  transition: all 0.3s;
+}
