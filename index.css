@@ -138,6 +138,8 @@
     border-radius: 273px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 50%;
+    left: 100px;
   }
   14% {
     width: 281px;
@@ -145,6 +147,8 @@
     border-radius: 281px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 40%;
+    left: 100px;
   }
   28% {
     width: 365px;
@@ -152,6 +156,8 @@
     border-radius: 365px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 40%;
+    left: 250px;
   }
   42% {
     width: 332px;
@@ -160,6 +166,8 @@
     border-radius: 332px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 45%;
+    left: 250px;
   }
   56% {
     width: 302px;
@@ -167,6 +175,8 @@
     border-radius: 302px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 50%;
+    left: 200px;
   }
   70% {
     width: 290px;
@@ -174,6 +184,8 @@
     border-radius: 290px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 50%;
+    left: 150px;
   }
   85% {
     width: 299px;
@@ -181,6 +193,8 @@
     border-radius: 299px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 50%;
+    left: 100px;
   }
   100% {
     width: 273px;
@@ -188,6 +202,8 @@
     border-radius: 273px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 50%;
+    left: 100px;
   }
 }
 
@@ -215,6 +231,8 @@
     flex-shrink: 0;
     fill: #ffbf37;
     filter: blur(79.5px);
+    top: 25%;
+    left: 150px;
   }
   14% {
     width: 360px;
@@ -223,6 +241,8 @@
     border-radius: 360px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 25%;
+    left: 250px;
   }
   28% {
     width: 360px;
@@ -231,6 +251,8 @@
     border-radius: 360px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 35%;
+    left: 250px;
   }
   42% {
     width: 373.98px;
@@ -239,6 +261,8 @@
     border-radius: 373.98px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 40%;
+    left: 300px;
   }
   56% {
     width: 277.838px;
@@ -247,6 +271,8 @@
     border-radius: 349.504px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 30%;
+    left: 200px;
   }
   70% {
     width: 241.882px;
@@ -255,6 +281,8 @@
     border-radius: 269.693px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 30%;
+    left: 200px;
   }
   85% {
     width: 296.445px;
@@ -264,6 +292,8 @@
     border-radius: 296.445px;
     background: #ffbf37;
     filter: blur(79.5px);
+    top: 30%;
+    left: 300px;
   }
   100% {
     width: 247px;
@@ -271,6 +301,8 @@
     flex-shrink: 0;
     fill: #ffbf37;
     filter: blur(79.5px);
+    top: 25%;
+    left: 150px;
   }
 }
 .contact_elipce_2 {
@@ -296,6 +328,8 @@
     border-radius: 287px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 25%;
+    left: 300px;
   }
   14% {
     width: 278px;
@@ -304,6 +338,8 @@
     border-radius: 278px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 45%;
+    left: 150px;
   }
   28% {
     width: 345px;
@@ -312,6 +348,8 @@
     border-radius: 345px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 35%;
+    left: 150px;
   }
   42% {
     width: 386px;
@@ -320,6 +358,8 @@
     border-radius: 386px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 40%;
+    left: 200px;
   }
   56% {
     width: 345px;
@@ -328,6 +368,8 @@
     border-radius: 345px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 45%;
+    left: 300px;
   }
   70% {
     width: 363.934px;
@@ -337,6 +379,8 @@
     border-radius: 363.934px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 35%;
+    left: 150px;
   }
   85% {
     width: 345px;
@@ -353,6 +397,8 @@
     border-radius: 287px;
     background: #f9a351;
     filter: blur(79.5px);
+    top: 25%;
+    left: 300px;
   }
 }
 .contact_elipce_3 {
